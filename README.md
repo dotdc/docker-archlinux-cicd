@@ -1,4 +1,4 @@
-# docker-archlinux-ci
+# docker-archlinux-cicd
 
 ## Description
 
@@ -7,5 +7,5 @@ This repository is used to build an Archlinux Docker image containing all the ne
 ## Usage
 
 ```console
-docker pull imrtfm/archlinux-ci:latest
+docker pull imrtfm/archlinux-cicd:latest
 ```

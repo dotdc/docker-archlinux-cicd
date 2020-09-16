@@ -1,3 +1,7 @@
-FROM imrtfm/archlinux:latest
+FROM archlinux/base:latest
 
-RUN pacman -Sy --noconfirm ansible-lint python-pylint shellcheck yamllint
+RUN pacman -Sy --noconfirm \
+        ansible-lint \
+        python-pylint \
+        shellcheck \
+        yamllint
