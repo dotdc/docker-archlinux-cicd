@@ -1,4 +1,5 @@
 # docker-archlinux-cicd
+[![Build Status](https://cloud.drone.io/api/badges/dotdc/docker-archlinux-cicd/status.svg)](https://cloud.drone.io/dotdc/docker-archlinux-cicd)
 
 ## Description
 
