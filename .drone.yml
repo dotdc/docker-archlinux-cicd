@@ -12,6 +12,6 @@ steps:
       from_secret: dockerhub_token
   settings:
     username: dotdc
-    password: "$TOKEN"
+    password: $TOKEN
     repo: dotdc/archlinux-cicd
     tags: latest
