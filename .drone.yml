@@ -11,6 +11,7 @@ steps:
       from_secret: dockerhub_token
   commands:
     - pacman -Sy --noconfirm docker
+    - systemctl start docker.service
     - docker login -u dotdc -p"$TOKEN"
     - docker build -t "$TAG" .
     - docker push "$TAG"
